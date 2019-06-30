@@ -1,6 +1,6 @@
 {
   "name": "country-code-to-flag",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Convert ISO 3166-1 alpha-2 code to emoji flag",
   "main": "dist/bundle.js",
   "scripts": {
