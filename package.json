@@ -1,0 +1,32 @@
+{
+  "name": "country-code-to-flag",
+  "version": "0.1.0",
+  "description": "Convert ISO 3166-1 alpha-2 code to emoji flag",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "test": "jest",
+    "build": "rollup -c",
+    "eslint": "eslint src/*",
+    "prepublish": "npm run eslint && npm run test && npm run build"
+  },
+  "keywords": [
+    "emoji",
+    "flag",
+    "country",
+    "code"
+  ],
+  "author": "jiefmoreno",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "eslint": "^6.0.1",
+    "eslint-plugin-jest": "^22.7.1",
+    "jest": "^24.8.0",
+    "rollup": "^1.16.3",
+    "rollup-plugin-babel": "^4.3.3"
+  },
+  "dependencies": {
+    "getoccurencesintext": "^0.2.2"
+  }
+}
