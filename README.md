@@ -15,6 +15,7 @@ import countryCodeToFlag from "country-code-to-flag";
 countryCodeToFlag("fr") // result: 🇫🇷
 countryCodeToFlag("US") // result: 🇺🇸
 countryCodeToFlag("USA") // throw an error 'the country code is invalid'
+countryCodeToFlag('AA') // result: 🇦🇦
 ```
 
 
